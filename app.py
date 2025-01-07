@@ -49,7 +49,6 @@ st.write("""
   - 2020E026
   - 2020E106
 
-**This application uses a machine learning model trained on Tamil sentences. The model predicts whether a given sentence is grammatically correct or contains errors.**
 """)
 
 st.write("---")
