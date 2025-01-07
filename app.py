@@ -51,5 +51,4 @@ st.write("""
 
 """)
 
-st.write("---")
-st.write("This application uses a Machine Learning model trained on Tamil sentences.")
+
