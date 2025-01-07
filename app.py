@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1LQ2S9hH456vt9Daq2GHm-qy-Z7xszypV
 """
 
-
-
 import streamlit as st
 import joblib
 import numpy as np
@@ -40,6 +38,19 @@ if st.button("Check Grammar"):
         st.success(f"Prediction: {prediction}")
     else:
         st.error("Please enter a valid sentence.")
+
+# Add Assignment details
+st.write("---")
+st.write("### Assignment Details")
+st.write("""
+**Assignment 2:** Tamil Grammar Checker
+- **Objective:** Build a grammar checker for Tamil sentences using machine learning models.
+- **Team Members:**
+  - 2020E026
+  - 2020E106
+
+**This application uses a machine learning model trained on Tamil sentences. The model predicts whether a given sentence is grammatically correct or contains errors.**
+""")
 
 st.write("---")
 st.write("This application uses a Machine Learning model trained on Tamil sentences.")
