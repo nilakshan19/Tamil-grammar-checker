@@ -30,7 +30,7 @@ st.write("""
 - **Team Members:**
   - 2020E026
   - 2020E106
---Enter a Tamil sentence below, and the app will predict whether it is grammatically correct or not.
+-Enter a Tamil sentence below, and the app will predict whether it is grammatically correct or not.
 """)
 
 # Input form
