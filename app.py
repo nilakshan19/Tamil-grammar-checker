@@ -30,7 +30,7 @@ st.write("""
 - **Team Members:**
   - 2020E026
   - 2020E106
-Enter a Tamil sentence below, and the app will predict whether it is grammatically correct or not.
+--Enter a Tamil sentence below, and the app will predict whether it is grammatically correct or not.
 """)
 
 # Input form
@@ -43,10 +43,7 @@ if st.button("Check Grammar"):
     else:
         st.error("Please enter a valid sentence.")
 
-# Add Assignment details
-st.write("---")
-st.write("### Assignment Details")
-st.write("""
+
 
 
 **This application uses a machine learning model trained on Tamil sentences. The model predicts whether a given sentence is grammatically correct or contains errors.**
