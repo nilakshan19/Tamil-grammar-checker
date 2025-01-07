@@ -25,12 +25,8 @@ def predict_sentence(sentence):
 st.title("Tamil Grammar Checker")
 
 st.write("""
-**Assignment 2:** Tamil Grammar Checker
-- **Objective:** Build a grammar checker for Tamil sentences using machine learning models.
-- **Team Members:**
-  - 2020E026
-  - 2020E106
--Enter a Tamil sentence below, and the app will predict whether it is grammatically correct or not.
+### Check the grammatical correctness of Tamil sentences.
+Enter a Tamil sentence below, and the app will predict whether it is grammatically correct or not.
 """)
 
 # Input form
@@ -43,8 +39,15 @@ if st.button("Check Grammar"):
     else:
         st.error("Please enter a valid sentence.")
 
-
-
+# Add Assignment details
+st.write("---")
+st.write("### Assignment Details")
+st.write("""
+**Assignment 2:** Tamil Grammar Checker
+- **Objective:** Build a grammar checker for Tamil sentences using machine learning models.
+- **Team Members:**
+  - 2020E026
+  - 2020E106
 
 **This application uses a machine learning model trained on Tamil sentences. The model predicts whether a given sentence is grammatically correct or contains errors.**
 """)
