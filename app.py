@@ -32,7 +32,7 @@ Enter a Tamil sentence below, and the app will predict whether it is grammatical
 # Input form
 user_input = st.text_area("Enter a Tamil sentence:", height=100)
 
-if st.button("Check Grammar"):
+if st.button("Testing"):
     if user_input.strip():
         prediction = predict_sentence(user_input)
         st.success(f"Prediction: {prediction}")
@@ -40,7 +40,7 @@ if st.button("Check Grammar"):
         st.error("Please enter a valid sentence.")
 
 # Add Assignment details
-st.write("---")
+
 st.write("### Assignment Details")
 st.write("""
 **Assignment 2:** Tamil Grammar Checker
