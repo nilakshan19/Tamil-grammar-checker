@@ -22,7 +22,7 @@ def predict_sentence(sentence):
     return "Correct" if prediction[0] == 1 else "Error"
 
 # Streamlit app
-st.title("Tamil Grammar Checker")
+st.title("Tamil spell and Grammar Checker")
 
 st.write("""
 ### Check the grammatical correctness of Tamil sentences.
